@@ -25,7 +25,7 @@ public:
     }
 
     bool empty() {  // return whether ring is empty or not 
-        return head != rear;
+        return head == rear;
     }   
 
     bool full() {  // return whether ring is full or not 
